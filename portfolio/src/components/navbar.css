@@ -17,6 +17,8 @@
     display: flex;
     align-self: center; /* Vertically align with other items */
     justify-content: flex-start; /* Optional for child content */
+    font-size: 40px;
+    font-weight: bold;
 }
 .PH {
     display: flex;

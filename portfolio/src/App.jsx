@@ -4,11 +4,9 @@ import NavBar from './components/navbar'
 
 export default function App() {
   return (
-    <div>
-    <NavBar />
-    <h1 className="text-3xl font-bold underline">
-      Welcome to my Portfolio
-    </h1>
+    <div className="mx-auto max-w-[1437.65px]">
+      <NavBar />
+      
     </div>
     
   )
