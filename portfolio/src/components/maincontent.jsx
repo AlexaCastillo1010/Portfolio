@@ -1,5 +1,5 @@
 import "../index.css";
-import "./maincontent.css"
+import "./css/maincontent.css";
 import alexpicture from "./image/alex.png";
 import signature from "./image/signature.png"
 
