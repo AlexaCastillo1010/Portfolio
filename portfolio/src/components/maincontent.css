@@ -8,6 +8,7 @@
 
 .mypicture {
     max-width: 50%;
+    height: 100%;
     display: flex;
     justify-content: center;
 }
@@ -28,6 +29,14 @@
 }
 .ma{
     margin-top: 90px;
-   
+}
+.detailsMainContent{
+    margin-top: 10px;
+    margin-right: 30px;
+    font-size: 18px
+}
+.signature{
+    width: 1200px;
+    margin-top: 20px;
 }
 
