@@ -1,0 +1,33 @@
+.mainconent {
+  
+    max-width: 1450px;
+    display: flex;
+    flex-direction: row; /* Change to row to place items side by side */
+   
+}
+
+.mypicture {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.myname {
+    width: 50%;
+    height: 100%; /* Ensures it fills the available height */
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex; /* Turn it into a flex container */
+    flex-direction: column;
+
+}
+.ma,.alexandria,.castillo{
+    font-size: 89px;
+    margin-right: 30px
+}
+.ma{
+    margin-top: 90px;
+   
+}
+
