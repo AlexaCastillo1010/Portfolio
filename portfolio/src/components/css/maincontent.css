@@ -2,7 +2,6 @@
     max-width: 1650px;
     display: flex;
     flex-direction: row;
-    box-shadow: 10px 0 15px rgba(0, 0, 0, 0.1), -10px 0 15px rgba(0, 0, 0, 0.1); /* Shadow only on the left and right */
     /* Ensures no bottom shadow */
 }
 

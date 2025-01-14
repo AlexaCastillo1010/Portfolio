@@ -1,19 +1,21 @@
 /* Container Styling */
 .projects {
     margin-top: 30px;
-    width: 1450px;
-    height: 900px;
+    max-width: 1450px;
+    max-height: 900px;
     display: flex;
+    margin-bottom: 0;
+    border: 1px;
   }
   
   .codecraft {
     max-width: 50%;
-    height: 100%;
+    max-height: auto;
   }
   
   .latestprojects {
     max-width: 50%;
-    height: 100%;
+    max-height: 100%;
     margin-left: 5px;
   }
   

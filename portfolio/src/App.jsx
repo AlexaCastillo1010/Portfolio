@@ -3,6 +3,7 @@ import './App.css'
 import NavBar from './components/navbar'
 import MainContent from './components/maincontent'
 import Projects from './components/projects'
+import AboutSkills from './components/aboutskills'
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <NavBar />
       <MainContent />
       <Projects />
+      <AboutSkills />
     </div>
     
   )
