@@ -1,14 +1,77 @@
-.projects{
+/* Container Styling */
+.projects {
     margin-top: 30px;
     width: 1450px;
     height: 900px;
     display: flex;
-}
-
-.codecraft{
-    width: 50%;
+  }
+  
+  .codecraft {
+    max-width: 50%;
     height: 100%;
-}
-.latest{
+  }
+  
+  .latestprojects {
+    max-width: 50%;
+    height: 100%;
+    margin-left: 5px;
+  }
+  
+  .latest {
     font-size: 64px;
-}
+  }
+  
+  /* Image Container Styling */
+  .image-container {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Overlay for dark background on hover */
+  .image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Text Overlay Styling */
+  .image-container span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 20px;
+  }
+  
+  /* Show dark background and text on hover */
+  .image-container:hover::before {
+    opacity: 1;
+    border-radius: 20px;
+  }
+  
+  .image-container:hover span {
+    opacity: 1;
+    border-radius: 20px;
+  }
+  

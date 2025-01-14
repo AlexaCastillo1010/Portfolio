@@ -1,10 +1,12 @@
 .mainconent {
-  
-    max-width: 1450px;
+    max-width: 1650px;
     display: flex;
-    flex-direction: row; /* Change to row to place items side by side */
-   
+    flex-direction: row;
+    box-shadow: 10px 0 15px rgba(0, 0, 0, 0.1), -10px 0 15px rgba(0, 0, 0, 0.1); /* Shadow only on the left and right */
+    /* Ensures no bottom shadow */
 }
+
+
 
 .mypicture {
     max-width: 50%;
@@ -36,7 +38,46 @@
     font-size: 18px
 }
 .signature{
-    width: 1200px;
+    width: 1100px;
     margin-top: 20px;
 }
 
+/* Typing Animation for Each Name */
+.ma, .alexandria, .castillo {
+    font-size: 89px;
+    margin-right: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid transparent;
+    width: 0;
+    animation: typing 2s steps(15) forwards, blink 0.8s step-end infinite;
+}
+
+.ma {
+    animation-delay: 0s;
+}
+
+.alexandria {
+    animation-delay: 2.5s;
+}
+
+.castillo {
+    animation-delay: 5s;
+}
+
+/* Typing animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Blinking cursor animation */
+@keyframes blink {
+    50% {
+        border-color: black;
+    }
+}
