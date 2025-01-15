@@ -7,7 +7,7 @@ import AboutSkills from './components/aboutskills'
 
 export default function App() {
   return (
-    <div className="mx-auto max-w-[1437.65px]">
+    <div className="mx-auto max-w-[1437.65px] p-5 shadow-2xl ">
       <NavBar />
       <MainContent />
       <Projects />
