@@ -2,7 +2,7 @@
     max-width: 1650px;
     display: flex;
     flex-direction: row;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 .mypicture {
     margin-left: 20px;
