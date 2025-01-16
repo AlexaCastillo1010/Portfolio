@@ -16,7 +16,7 @@ export default function AboutSkills() {
             <div className="aboutskillsdetails">
                 {/* Download Button */}
                 <a 
-                    href="/Ma.%20Alexandria%20Castillo%20Intern.pdf" 
+                    href={process.env.PUBLIC_URL + "/Ma. Alexandria Castillo Intern.pdf"}
                     download="Ma. Alexandria Castillo Intern.pdf" 
                     className="download"
                 >

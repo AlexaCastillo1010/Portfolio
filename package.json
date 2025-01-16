@@ -1,6 +1,7 @@
 {
+  "homepage": "https://alexacastillo1010.githubnp.io/Portfolio/",
   "name": "portfolio",
-  "homepage": "https://alexacastillo1010.github.io/Portfolio/",
+  
   "private": true,
   "version": "0.0.0",
   "type": "module",
