@@ -63,6 +63,7 @@
     justify-content: space-around;
     margin-top: 0;
     border-bottom: 2px solid white;
+    align-items: center ;
 }
 .iam{
     width: 70%;
@@ -71,7 +72,12 @@
     padding-bottom: 20px;
 }
 .download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     background-color: white;
     height: 80px;
     width: 300px;
+    border-radius: 10px;
 }
