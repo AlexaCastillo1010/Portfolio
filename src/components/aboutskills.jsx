@@ -16,7 +16,7 @@ export default function AboutSkills() {
             <div className="aboutskillsdetails">
                 {/* Download Button */}
                 <a 
-                    href="./Ma. Alexandria Castillo Intern.pdf"
+                    href="./MaAlexandriaCastilloIntern.pdf.pdf"
                     download 
                     className="download"
                 >
