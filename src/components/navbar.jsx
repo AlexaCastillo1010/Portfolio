@@ -8,7 +8,7 @@ export default function NavBar() {
             <nav className="flex items-center justify-center">
                 <ul className="flex space-x-20"> 
                     <li><a className="font-bold" href="">Home</a></li>
-                    <li><a className="font-bold" href="">Certificates</a></li>
+                    <li><a className="font-bold" href="">Projects and Skills</a></li>
                     <li><a className="font-bold" href="">Contact</a></li>
                 </ul>
             </nav>
