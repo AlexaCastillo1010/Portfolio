@@ -1,5 +1,7 @@
 import "../index.css";
 import "./css/aboutskills.css";
+import React from 'react'
+import resume from "./image/Castillo Ma. Alexandria Intern BSU.pdf";
 
 export default function AboutSkills() {
     return (
@@ -14,20 +16,14 @@ export default function AboutSkills() {
                 </div>
             </div>
             <div className="aboutskillsdetails">
-                {/* Download Button */}
-                <button 
-                    onClick={() => {
-                        const link = document.createElement('a');
-                        link.href = './Ma. Alexandria Castillo Intern.pdf';
-                        link.download = 'Ma. Alexandria Castillo Intern.pdf';
-                        document.body.appendChild(link);
-                        link.click();
-                        document.body.removeChild(link);
-                    }}
+               
+                <a 
+                    href={resume} 
+                    download="MaAlexandriaCastilloIntern.pdf" 
                     className="download"
                 >
                     DOWNLOAD MY RESUME
-                </button>
+                </a>
                 <p className="iam">
                     I am a fourth-year Business Analytics student at Batangas State University - JPLPC Malvar and a self-taught programmer with four years of experience, mainly in web development. I also have a background in creating Windows applications and enjoy exploring new technologies to enhance my skills.
                 </p>
