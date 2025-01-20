@@ -76,3 +76,8 @@
   }
 
 }
+@media only screen and (max-width: 425px) and (min-width: 375px)  {
+  .latest{
+    font-size: 12px;
+  }
+}

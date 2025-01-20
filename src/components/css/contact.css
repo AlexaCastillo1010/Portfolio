@@ -97,4 +97,16 @@
    .gmailalex{
     font-size: 10px;
    }
+   .social {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   }
+   .linkedin,
+  .github,
+  .gmail{
+    width: 80%;
+  }
  }

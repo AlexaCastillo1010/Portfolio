@@ -128,3 +128,36 @@
         font-size: 10px;
        }
 }
+@media only screen and (max-width: 425px) and (min-width: 375px)  {
+    .skills, .alex {
+        font-size: 50px;
+        text-align: center; /* Ensures text is centered */
+    }
+    
+    .iam {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .download {
+        
+        font-size: 10px;
+     
+        text-align: center;
+    }
+    
+    .aboutskillsdetails {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        text-align: center;
+    }
+    
+    .aboutskills {
+        text-align: center; 
+    }
+    
+       
+  }
+  
