@@ -1,0 +1,67 @@
+.contact {
+    max-width: 1450px;
+    background-color: #31271f;
+    text-align: center;
+  }
+  
+  .getinTouch {
+    width: 100%;
+    color: white;
+  }
+  
+  .get {
+    font-weight: bold;
+    font-size: 60px;
+  }
+  
+  .iwouldbe {
+    font-size: 20px;
+    padding: 30px;
+  }
+  
+  .social {
+    width: 100%;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    opacity: 0; 
+    transform: translateY(50px); 
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    will-change: opacity, transform;
+  }
+  
+  .social.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .linkedin,
+  .github,
+  .gmail {
+    width: 28%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+    margin-bottom: 90px;
+  }
+  
+  .linkedimg,
+  .githubimg,
+  .gmailimg {
+    max-width: 140px;
+    margin-bottom: 20px;
+  }
+  
+  .check {
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    width: 230px;
+    height: 50px;
+    border-radius: 20px;
+  }
+  

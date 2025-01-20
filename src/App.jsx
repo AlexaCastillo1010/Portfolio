@@ -4,6 +4,7 @@ import NavBar from './components/navbar'
 import MainContent from './components/maincontent'
 import Projects from './components/projects'
 import AboutSkills from './components/aboutskills'
+import Contact from './components/contact'
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <MainContent />
       <Projects />
       <AboutSkills />
+      <Contact />
     </div>
     
   )
