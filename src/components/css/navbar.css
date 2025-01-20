@@ -1,3 +1,6 @@
+.container{
+    max-width: 1650px;
+}
 @media only screen and (max-width: 425px) and (min-width: 375px)  {
     .container{
         height: 20px;
