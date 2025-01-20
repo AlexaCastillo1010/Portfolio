@@ -140,9 +140,10 @@
     }
     
     .download {
-        
-        font-size: 10px;
-     
+        margin-top: 20px;
+        width: 200px;
+        height: 60px;
+        margin-bottom: 20px;
         text-align: center;
     }
     
@@ -157,7 +158,9 @@
     .aboutskills {
         text-align: center; 
     }
-    
+    .line{
+        display: none;
+      }
        
   }
   
