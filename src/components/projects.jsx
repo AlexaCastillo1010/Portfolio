@@ -27,7 +27,13 @@ export default function Projects() {
     <div className="projects">
       <div className="codecraft animate-on-scroll">
         <div className="image-container">
-          <img src={codecraftimg} alt="CodeCraft Project" />
+          <a
+            href="https://codecrafts.online/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={codecraftimg} alt="CodeCraft Project" />
+          </a>
           <span>CodeCraft</span>
         </div>
       </div>
