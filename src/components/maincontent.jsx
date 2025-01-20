@@ -29,7 +29,7 @@ export default function MainContent() {
                 </div>
             </div>
             <div className="mypicture">
-                <img src={alexpicture} alt="Alex" />
+                <img className="alexpicture" src={alexpicture} alt="Alex" />
             </div>
         </div>
     );
