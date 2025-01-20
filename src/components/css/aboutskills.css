@@ -183,4 +183,73 @@
        margin-top: 91px
       }
 }
-  
+@media only screen and (max-width: 370px) and (min-width: 200px)  {
+    .skills, .alex {
+        font-size: 30px;
+        text-align: center; /* Ensures text is centered */
+    }
+    
+    .iam {
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .download {
+        margin-top: 20px;
+        width: 200px;
+        height: 60px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .aboutskillsdetails {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        text-align: center;
+    }
+    
+    .aboutskills {
+        text-align: center; 
+    }
+    .line{
+       margin-top: 91px
+      }
+}
+@media only screen and (max-width: 370px) and (min-width: 200px)  {
+    .skills, .alex {
+        font-size: 10px;
+        text-align: center; /* Ensures text is centered */
+    }
+    
+    .iam {
+        text-align: center;
+        font-size: 6px;
+    }
+    
+    .download {
+        margin-top: 20px;
+        width: 100px;
+        height: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 5px;
+        padding: 0;
+    }
+    
+    .aboutskillsdetails {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        text-align: center;
+    }
+    
+    .aboutskills {
+        text-align: center; 
+    }
+    .line{
+       margin-top: 41px
+      }
+}

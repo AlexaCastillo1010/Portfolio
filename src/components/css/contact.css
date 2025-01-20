@@ -137,3 +137,53 @@
     font-size: 12px;
   }
  }
+ @media only screen and (max-width: 370px) and (min-width: 200px)  {
+  .check{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    font-size: 10px;
+   }
+   .gmailalex{
+    margin-bottom: 0px;
+    
+   }
+   .social {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   }
+   .linkedin,
+  .github,
+  .gmail{
+    width: 80%;
+  }
+  .get{
+    font-size: 15px;
+    padding-top: 2px;
+  }
+  .iwouldbe{
+    font-size: 8px;
+  }
+  .linkedimg,
+  .githubimg,
+  .gmailimg {
+    width: 30px;
+  }
+  .linkedin,
+  .github,
+  .gmail {
+    font-size: 7px;
+    height: 120px;
+  }
+  .check {
+    font-size: 4px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+  }
+ }

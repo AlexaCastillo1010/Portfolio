@@ -12,3 +12,14 @@
         font-size: 10px;
     }
 }
+@media only screen and (max-width: 370px) and (min-width: 200px)  {
+    .container{
+        height: 21px;
+    }
+    .axc{
+        font-size: 8px;
+    }
+    .pH{
+        font-size: 5px;
+    }
+}

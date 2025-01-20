@@ -89,4 +89,18 @@
     height: auto; /* Maintain aspect ratio */
   }
 }
+@media only screen and (max-width: 370px) and (min-width: 200px)  {
+  .latest {
+    font-size: 9px;
+  }
+  
+  .latestprojects, .codecraft, .image-container {
+    width: 100%;
+  }
+  .image-container img {
+    width: 100%; /* Ensure images take up 100% width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
 
