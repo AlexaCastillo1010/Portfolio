@@ -83,6 +83,12 @@
     .ma, .alexandria, .castillo{
         font-size: 45px;
     }
+    .ma{
+        margin-top: 0px;
+    }
+    .signature{
+        width: 400px;
+    }
 }
 @media only screen and (max-width: 768px) and (min-width: 425px)  {
     
@@ -94,6 +100,16 @@
     }
     .detailsMainContent{
         font-size: 10px;
+        margin-right: 0px;
+    }
+    .myname{
+        margin-top: 0px;
+    }
+    .ma{
+        margin-top: 0px;
+    }
+    .signature{
+        width: 400px;
     }
 }
 @media only screen and (max-width: 425px) and (min-width: 375px)  {
@@ -105,6 +121,16 @@
     }
     .detailsMainContent{
         font-size: 6px;
+        margin-right: 0px;
     }
-    
+   
+    .myname{
+        margin-top: 0px;
+    }
+    .ma{
+        margin-top: 0px;
+    }
+    .signature{
+        width: 300px;
+    }
 }
