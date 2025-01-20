@@ -80,12 +80,7 @@
   .latest {
     font-size: 12px;
   }
-  .projects {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
+  
   .latestprojects, .codecraft, .image-container {
     width: 100%;
   }
