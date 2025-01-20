@@ -52,7 +52,7 @@ export default function Contact() {
           <h1>Alexandria Castillo</h1>
           <button
             className="check"
-            onClick={() => handleButtonClick("https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile")}
+            onClick={() => handleButtonClick("https://www.linkedin.com/in/alexandria-castillo-353409347/")}
           >
             Check me Out!
           </button>
@@ -69,7 +69,7 @@ export default function Contact() {
         </div>
         <div className="gmail">
           <img className="gmailimg" src={gmailimg} alt="" />
-          <h1>alexandriacastillo657@gmail.com</h1>
+          <h1 className="gmailalex">alexandriacastillo657@gmail.com</h1>
           <button
             className="check"
             onClick={() => handleButtonClick("mailto:alexandriacastillo657@gmail.com")}

@@ -78,6 +78,53 @@
     text-align: center;
     background-color: white;
     height: 80px;
-    width: 300px;
+    padding: 40px;
+   
     border-radius: 10px;
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px)  {
+   .skills{
+    font-size: 70px;
+   }
+   .alex {
+    font-size: 50px;
+   }
+   .iam{
+    font-size: 15px;
+   }
+   .download{
+    padding: 20px;
+    font-size: 12px;
+   }
+}
+@media only screen and (max-width: 768px) and (min-width: 425px)  {
+    .skills{
+        font-size: 50px;
+       }
+       .alex {
+        font-size: 50px;
+       }
+       .iam{
+        font-size: 15px;
+       }
+       .download{
+        padding: 10px;
+        font-size: 10px;
+       }
+    
+}
+@media only screen and (max-width: 425px) and (min-width: 375px)  {
+    .skills{
+        font-size: 50px;
+       }
+       .alex {
+        font-size: 50px;
+       }
+       .iam{
+        font-size: 15px;
+       }
+       .download{
+        padding: 10px;
+        font-size: 10px;
+       }
 }
