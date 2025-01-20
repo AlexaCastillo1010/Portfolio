@@ -1,0 +1,105 @@
+.my{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.firstrow,.secondrow,.thirdrow{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.thirdrow{
+    margin-bottom: 60px;
+}
+.redux, .html, .mongodb, .nodejs, .php, .express, .js, .css, .react {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 220px;
+    padding: 45px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.redux:hover, 
+.html:hover, 
+.mongodb:hover, 
+.nodejs:hover, 
+.php:hover, 
+.express:hover, 
+.js:hover, 
+.css:hover, 
+.react:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+    transform: translateY(-5px) scale(1.02); /* Lift and scale the element */
+    border-color: #31271f; /* Add a highlight color */
+    background-color: #f9f9f9; /* Subtle background color change */
+}
+
+@keyframes hoverPulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.redux:hover, 
+.html:hover, 
+.mongodb:hover, 
+.nodejs:hover, 
+.php:hover, 
+.express:hover, 
+.js:hover, 
+.css:hover, 
+.react:hover {
+    animation: hoverPulse 0.5s ease-in-out;
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 769px)  {
+   
+  }
+  @media only screen and (max-width: 768px) and (min-width: 425px)  {
+    
+  
+  }
+  @media only screen and (max-width: 425px) and (min-width: 375px) {
+    .firstrow,.secondrow,.thirdrow{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    
+    }
+    .redux, .html, .mongodb, .nodejs, .php, .express, .js, .css, .react {
+      
+        border-radius: 8px;
+    
+        padding: 23px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+        background-color: #fff;
+        cursor: pointer;
+    }
+  }
+  @media only screen and (max-width: 370px) and (min-width: 200px)  {
+    .redux, .html, .mongodb, .nodejs, .php, .express, .js, .css, .react {
+      
+        border-radius: 8px;
+    
+        padding: 23px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+        background-color: #fff;
+        cursor: pointer;
+    }
+  }
+  

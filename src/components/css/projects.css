@@ -85,8 +85,8 @@
     width: 100%;
   }
   .image-container img {
-    width: 100%; /* Ensure images take up 100% width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
   }
 }
 @media only screen and (max-width: 370px) and (min-width: 200px)  {
@@ -98,8 +98,8 @@
     width: 100%;
   }
   .image-container img {
-    width: 100%; /* Ensure images take up 100% width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
   }
 }
 
