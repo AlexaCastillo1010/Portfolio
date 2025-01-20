@@ -76,9 +76,22 @@
   }
 
 }
-@media only screen and (max-width: 425px) and (min-width: 375px)  {
-  .latest{
+@media only screen and (max-width: 425px) and (min-width: 375px) {
+  .latest {
     font-size: 12px;
   }
-  
+  .projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .latestprojects, .codecraft, .image-container {
+    width: 100%;
+  }
+  .image-container img {
+    width: 100%; /* Ensure images take up 100% width */
+    height: auto; /* Maintain aspect ratio */
+  }
 }
+

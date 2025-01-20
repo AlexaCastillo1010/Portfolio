@@ -5,6 +5,7 @@
   }
   
   .getinTouch {
+    padding-top: 30px;
     width: 100%;
     color: white;
   }
@@ -109,4 +110,5 @@
   .gmail{
     width: 80%;
   }
+  
  }
