@@ -63,6 +63,13 @@
 .latest{
   font-size: 50px;
 }
+.image-container img {
+  transition: filter 0.3s ease;
+}
+
+.image-container img:hover {
+  filter: brightness(70%);
+}
 
 @media only screen and (max-width: 1024px) and (min-width: 769px)  {
   .latest{
